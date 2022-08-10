@@ -13,7 +13,7 @@
 ## Introduction <a name="introduction"></a>
 The client is a renewable energy generation company that has detected anomalous behaviors in two of its photovoltaic solar plants. Their maintenance subcontractor is unable to identify the reasons for the inefficiencies and they wish to perform an in-depth analysis of the plants’ sensor and meter data before mobilizing their engineering team.
 
-- [See a technical explanation of the project here.](https://pedrocorma.github.io/project/3ecommerce/)
+- [See a technical explanation of the project here.](https://pedrocorma.github.io/project/4solarplant/)
 
 ## Objectives <a name="objectives"></a>
 1. Analysing the available data to try to figure out where the problems may be and whether or not it is necessary to send a engineering team to the plants.
@@ -21,10 +21,12 @@ The client is a renewable energy generation company that has detected anomalous 
 ## Project results  <a name="project-results"></a>
 ### Insights (baseline)  <a name="insights"></a>
 After a detailed analysis of the data from the photovoltaic solar plants it can be concluded that:
+
 1. There are serious data quality problems. The part of the chain where these problems are generated, including the plant meters, should be reviewed.
 2. The fact that the DC generation is about 10 times higher in plant 1 than in plant 2, added to the fact that the efficiency in plant 1 is above 10% leads to think that the DC generation data in plant 1 may be artificially scaled for some reason.
 
 In the absence of further necessary checks, and assuming that the data are correct:
+
 3. Both plants have received high amounts of irradiation, no problems have been located at this stage.
 4. Although the ambient temperature is higher in Plant 2 and its modules are warmer than those of Plant 1, this does not seem to have a significant impact.
 5. Plant 1’s DC generation works properly, the modules seem to bring DC to the inverters.
