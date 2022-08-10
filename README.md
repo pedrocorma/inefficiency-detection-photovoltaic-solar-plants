@@ -49,5 +49,4 @@ In the absence of further necessary checks, and assuming that the data are corre
   - `03_Analisis e Insights.ipynb`: Notebook used for the execution of the exploratory data analysis and which collects the business insights found as well as the recommended actionable initiatives.
 
 ## Instructions  <a name="instructions"></a>
-- Unzip ecommerce.rar and tablon_analitico.rar under 'Datos' folder.
 - Remember to update the `project_path` to the path where you have replicated the project.
